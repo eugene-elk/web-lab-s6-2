@@ -50,7 +50,8 @@ h5 {
 }
 
 .menu__item {
-    margin: 10px 10px 0 0;
+    margin: 10px 0 0 0;
+    text-align: center;
 }
 
 .menu__item a {
@@ -69,8 +70,11 @@ h5 {
     line-height: 1.3em;
 }
 
-.photo {
+.logo {
     margin-top: 20px;
+    background-image: url(img/photo.png);
+    width: 300px;
+    height: 199px;
 }
 
 .action__button, .feature__button, .question_button {
@@ -113,7 +117,7 @@ h5 {
 
 .feature {
     padding-top: 10px;
-    width: 245px;
+    width: 205px;
     margin: 10px auto;
     border-radius: 5px;
     box-shadow: 0 0 0 1px rgba(0,0,0,.2);
@@ -124,13 +128,13 @@ h5 {
 }
 
 .feature__button {
-    width: 230px;
+    width: 185px;
     margin: 10px;
 }
 
 .feature__image {
     width: 165px;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 20px 0px 20px;
 }
 
 /* Keep in touch */
@@ -159,3 +163,11 @@ textarea {
     padding-top: 20px;
 }
 
+@media screen and (max-width: 350px) {
+    .logo {
+        margin-top: 20px;
+        background-image: url(img/photo-small.png);
+        width: 189px;
+        height: 126px;
+    }
+}
